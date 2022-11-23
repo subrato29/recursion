@@ -1,3 +1,5 @@
+package recursion.parameterized;
+
 public class ParameterizedRecursion {
 
     public static void printSum (int counter, int sum) {

@@ -1,3 +1,5 @@
+package recursion.functional;
+
 public class FunctionalRecursion {
 
     public static int sum (int counter) {
