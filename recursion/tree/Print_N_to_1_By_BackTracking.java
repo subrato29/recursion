@@ -3,7 +3,7 @@ package recursion.tree;
 /**
  * Print N to 1 by backtracking
  * Time complexity: O(N)
- * Space complexity: O(N)
+ * Space complexity: O(N), size of call stack
  */
 public class Print_N_to_1_By_BackTracking {
 

@@ -1,3 +1,8 @@
+/**
+ * Time complexity: O(N)
+ * Space complexity: O(N), size of call stack
+ */
+
 package recursion.functional;
 
 public class Factorial {
