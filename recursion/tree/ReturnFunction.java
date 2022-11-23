@@ -1,6 +1,7 @@
 package recursion.tree;
 
 public class ReturnFunction {
+
     static int counter = 0;
     static void print () {
         if (counter == 4) {
