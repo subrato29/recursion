@@ -3,7 +3,7 @@
  */
 package recursion.functional;
 
-public class Recursion {
+public class Fibonacci {
 
     public static int fibonacci (int num) {
         if (num <= 1) {
