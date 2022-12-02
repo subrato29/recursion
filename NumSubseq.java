@@ -28,7 +28,6 @@ public class NumSubseq {
         if (list.size () == 1) {
             return list.get (0);
         }
-        Collections.sort (list);
         return list.get (0) + list.get (list.size () - 1);
     }
 
