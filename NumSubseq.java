@@ -10,15 +10,15 @@ public class NumSubseq {
         if (index == nums.length) {
             if (seq.size() > 0 && sumOfMinMax (seq) <= target) {
                 System.out.println(seq);
-                counter++;
+                return 1;
             }
-            return counter;
+            return 0;
         }
         seq.add (nums[index]);
-        counter = helper (nums, target, index + 1, seq, counter);
+        int addCounter = helper (nums, target, index + 1, seq, counter);
         seq.remove (Integer.valueOf(nums[index]));
-        counter = helper (nums, target, index + 1, seq, counter);
-        return counter;
+        int removeCounter = helper (nums, target, index + 1, seq, counter);
+        return addCounter + removeCounter;
     }
 
     public int sumOfMinMax (ArrayList<Integer> list) {
