@@ -1,4 +1,4 @@
-package recursion; /**
+package recursion.leetcode; /**
  * 39. Combination Sum
  * Medium
  * 14.3K
